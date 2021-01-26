@@ -1,9 +1,9 @@
 {
   "name": "@manishbasnetnp/shared-common",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A common functionalities shared between different services specifically used for Node.js.",
   "keywords": [
-      "shared-common"
+    "shared-common"
   ],
   "files": [
     "dist",
@@ -15,21 +15,21 @@
   "module": "index.mjs",
   "types": "index.d.ts",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/manishbasnet/shared-common"
+    "type": "git",
+    "url": "https://github.com/manishbasnet/shared-common"
   },
   "scripts": {
-      "start": "npm run test",
-      "watch:test": "npm t -- --watch",
-      "prebuild": "rimraf dist",
-      "build": "npm-run-all --parallel build:*",
-      "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
-      "build:umd": "webpack --output-filename index.umd.js",
-      "build:umd.min": "webpack --output-filename index.umd.min.js -p",
-      "publish": "git push --tags && npm publish --access=public"
+    "start": "npm run test",
+    "watch:test": "npm t -- --watch",
+    "prebuild": "rimraf dist",
+    "build": "npm-run-all --parallel build:*",
+    "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
+    "build:umd": "webpack --output-filename index.umd.js",
+    "build:umd.min": "webpack --output-filename index.umd.min.js -p",
+    "publish": "git push --tags && npm publish --access=public"
   },
   "engines": {
-      "node": ">= 10"
+    "node": ">= 10"
   },
   "devDependencies": {
     "babel-cli": "6.11.4",
