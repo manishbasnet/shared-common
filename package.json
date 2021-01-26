@@ -1,0 +1,24 @@
+{
+    "name": "@manishbasnetnp/shared-common",
+    "version": "1.0.0",
+    "description": "A common functionalities shared between different services specifically used for Node.js.",
+    "keywords": ["shared-common"],
+    "author": "Manish Basnet",
+    "license": "MIT",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/manishbasnet/shared-common"
+    },
+    "script": {
+        "build": "npm-run-all --parallel build:*",
+        "publish": "git push --tags && npm publish"
+    },
+    "engines": {
+      "node": ">= 10"
+    },
+    "devDependencies": {},
+    "dependencies": {}
+}
