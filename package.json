@@ -1,6 +1,6 @@
 {
   "name": "@manishbasnetnp/shared-common",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A common functionalities shared between different services specifically used for Node.js.",
   "keywords": [
     "shared-common"
