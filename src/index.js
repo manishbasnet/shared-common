@@ -1,11 +1,10 @@
-'use strict';
+'use strict'
 
 /**
  * Module dependencies.
  */
-const response = require('../utils/response');
-
+const response = require('./utils/response')
 
 module.exports = {
-  response: response
-};
+    response
+}

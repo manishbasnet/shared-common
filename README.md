@@ -9,13 +9,13 @@ Shared-Common is a personal project, now in experimental mode. In most cases, yo
 ## Install
 
 ```
-$ npm install @manishbasnet/shared-common
+$ npm install @manishbasnetnp/shared-common
 ```
 
 ## Usage
 
 ```js
-const { successResponse, failureResponse } = require('@bamblehorse/tiny')
+const { successResponse, failureResponse } = require('@manishbasnetnp/shared-common')
 const response = {
     data: 'example'
 };
@@ -34,4 +34,4 @@ Shared-Common is freely distributable under the terms of the [MIT license][licen
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
-[npm-url]: https://npmjs.org/package/@manishbasnet/shared-common
+[npm-url]: https://npmjs.org/package/@manishbasnetnp/shared-common
