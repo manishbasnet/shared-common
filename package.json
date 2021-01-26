@@ -1,5 +1,5 @@
 {
-    "name": "@manishbasnetnp/shared-common",
+    "name": "@manishbasnet/shared-common",
     "version": "1.1.0",
     "description": "A common functionalities shared between different services specifically used for Node.js.",
     "keywords": [
@@ -16,7 +16,7 @@
     },
     "script": {
         "build": "npm-run-all --parallel build:*",
-        "publish": "git push --tags && npm publish"
+        "publish": "git push --tags && npm publish --access=public"
     },
     "engines": {
         "node": ">= 10"

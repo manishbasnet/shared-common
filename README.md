@@ -1,9 +1,5 @@
 # Shared-Common
 
-[![NPM version][npm-version-image]][npm-url]
-[![NPM downloads][npm-downloads-image]][npm-downloads-url]
-[![MIT License][license-image]][license-url]
-
 A common functionalities shared between different services specifically used for Node.js.
 
 ## Project Status
@@ -13,7 +9,7 @@ Shared-Common is a personal project, now in experimental mode. In most cases, yo
 ## Install
 
 ```
-$ npm install @manishbasnetnp/shared-common
+$ npm install @manishbasnet/shared-common
 ```
 
 ## Usage
@@ -38,4 +34,4 @@ Shared-Common is freely distributable under the terms of the [MIT license][licen
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
-[npm-url]: https://npmjs.org/package/@manishbasnetnp/shared-common
+[npm-url]: https://npmjs.org/package/@manishbasnet/shared-common
