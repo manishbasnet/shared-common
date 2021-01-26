@@ -12,8 +12,8 @@
   "author": "Manish Basnet",
   "license": "MIT",
   "main": "dist/index.js",
-  "module": "index.mjs",
-  "types": "index.d.ts",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/manishbasnet/shared-common"
