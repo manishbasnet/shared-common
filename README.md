@@ -15,7 +15,7 @@ $ npm install @manishbasnetnp/shared-common
 ## Usage
 
 ```js
-const { successResponse, failureResponse } = require('@bamblehorse/tiny')
+const { successResponse, failureResponse } = require('@manishbasnetnp/shared-common')
 const response = {
     data: 'example'
 };
